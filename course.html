@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brainedge Academy</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="header">
+    <nav>
+       <div class="BrainedgeAcademy">
+        <h1>Brainedge Academy</h1>
+       </div>
+       <ul id="menuList">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="">Course</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+       </ul>
+       <div class="menu-icon">
+        <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+
+    </nav>
+    <div class="course">
+        <h1>Course Offered</h1>
+        <h2>Technology Course</h2>
+        <ul>
+            <h3><li>Robotics</li></h3>
+            <h3><li>Artifical Intelligence</li></h3>
+            <h3><li>Machine Learning - IoT</li></h3>
+        </ul>
+        <br>
+        <br>
+        <h2>Language Courses</h2>
+        <ul>
+            <h3><li>German</li></h3>
+            <h3><li>Japanese</li></h3>
+            <h3><li>Hindi</li></h3>
+            <h3><li>Spoken English</li></h3>
+        </ul>
+        <br>
+        <br>
+        <h2>SoftWare Courses</h2>
+        <ul>
+            <h3><li>Web Designing</li></h3>
+            <h3><li>Python</li></h3>
+            <h3><li>Full Stack Devlopment</li></h3>
+        </ul>
+        
+    <script>
+         let menuList = document.getElementById("menuList")
+         menuList.style.maxHeight = "0px";
+    
+         function toggleMenu(){
+            if(menuList.style.maxHeight == "0px")
+            {
+                 menuList.style.maxHeight = "300px";
+            }
+            else{
+                menuList.style.maxHeight = "0px";
+             }
+        }
+    
+    </script>
+    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous">
+     </script>
+        
+</div>
+</div>
+</body>
+</html>
