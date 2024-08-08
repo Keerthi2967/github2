@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrainedgeAcademy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header">
+    <nav>
+       <div class="BrainedgeAcademy">
+        <h1>Brainedge Academy</h1>
+       </div>
+       <ul id="menuList">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="course.html">Course</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+       </ul>
+       <div class="menu-icon">
+        <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+
+    </nav>
+    <div class="content">
+        <h2>Explore Our Course</h2>
+        <h4><p>Discover our wide range of courses designed for students and professionals.
+         We are Providing exceptional educational experiences that empower student.
+        </p></h4>
+    </div>
+    <div class="row">
+    <div class="course">
+        <h2>Technology Courses</h2>
+        <ul>
+            <h4><li><a href="">Robotics</a></li></h4>
+            <h4><li><a href="">Artifical Intelligence</a></li></h4>
+            <h4><li><a href="">Machine Learning - IoT</a></li></h4>
+            </li>
+        </ul>
+    </div>
+    <div class="LanguageCourses">
+        <h2>Language Courses</h2>
+        <ul>
+            <h4><li><a href="">German</a></li></h4>
+            <h4><li><a href="">Japanese</a></li></h4>
+            <h4><li><a href="">Hindi</a></li></h4>
+            <h4><li><a href="">Spoken English</a></li></h4>
+        </ul>
+    </div>
+    <div class="SoftWareCourses">
+        <h2>Software Courses</h2>
+        <ul>
+          <h4><li><a href="">Web Designing</a></li></h4>
+          <h4><li><a href="">Python</a></li></h4>
+          <h4><li><a href="">Full Stack Devlopment</a></li></h4>
+        </ul>
+    </div>
+    </div>
+    <div class="Followus">
+        <h2>Follow Us On</h2>
+     <ul>
+         <h4><li><a href="">Facebook</a></li></h4>
+         <h4><li><a href="">Instagram</a></li></h4>
+         <h4><li><a href="">Twitter</a></li></h4>
+         <h4><li><a href="">Linkedin</a></li></h4>
+     </ul>
+    </div>
+    <div class="Address">
+        <h2>Address</h2>
+        <h3>Brainedge Academy</h3>
+      <h4>28A ,Bharathi Main Road,<br>
+        NRT Nagar,Theni-625531<br>
+        ph No: +91 8610950205<br>
+        </h4>
+    </div>
+    <div class="Footer">
+        <h2>Contact</h2>
+        <h3><i class="fa-solid fa-envelope"></i> academybrainedge@gmail.com</h3>
+        <h3><i class="fa-solid fa-phone"></i> +91 9042248462</h3>
+        <h3><i class="fa-regular fa-copyright"></i> 2024 Brainedge Academy.<br>All Rights Reserved.
+        </h3>
+    </div>   
+    <script>
+        let menuList = document.getElementById("menuList")
+        menuList.style.maxHeight = "0px";
+
+        function toggleMenu(){
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "300px";
+            }
+            else{
+                menuList.style.maxHeight = "0px";
+             }
+        }
+
+    </script>
+    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous">
+     </script>
+    </section>
+</body>
+</html>

@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:url(../office/image\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    backdrop-filter:invert(70%);
+}
+
+nav{
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #044272;
+    position: relative;
+    height: 70px;
+}
+.BrainedgeAcademy{
+    color: #fff;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.menu-icon i{
+    color: #fff;
+    font-size: 30px;
+}
+@media (max-width:600px) {
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background: #044274;
+        gap: 0px;
+        overflow: hidden;
+        
+    }
+    nav ul li{
+        padding: 20px;
+    }
+    .menu-icon{
+        display: block;
+    }
+}
+#menulist{
+    transition: all 0.5s;
+}
+.course{
+    font-family: 'Times New Roman', Times, serif;
+    color:#03304b;
+    padding: 30px;    
+}
+.course h1{
+    color:rgb(188, 70, 218);
+}
+.course h2{
+    color:#03f5fd;
+
+}
+.course ul h3{
+    color: #fff;
+}
+.course:hover{
+    cursor: pointer;
+}
+@media (max-width:600px) {
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background: #044274;
+        gap: 0px;
+        overflow: hidden;
+    }
+}
+@media(max-width:700px){
+    .course{
+        flex-direction: column;
+    }
+}
+
+
