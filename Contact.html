@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brainedge Academy</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <div class="header">
+    <nav>
+       <div class="BrainedgeAcademy">
+        <h1>Brainedge Academy</h1>
+       </div>
+       <ul id="menuList">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="course.html">Course</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="">Contact</a></li>
+       </ul>
+       <div class="menu-icon">
+        <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+    </nav>
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.050235460499!2d77.48277707503136!3d10.01270939009333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b071522753874f7%3A0xb23377358516ca89!2sOtomatiks%20Theni!5e0!3m2!1sen!2sin!4v1724055402345!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa-solid fa-house" style="color: #eaecf0;"></i>
+                    <span>
+                    <h5>Brainedge Academy</h5>
+                    <p>Bharathi Main Rd, beside Theni Kammavar Sangam Matric School,<br>NRT Nager,Theni</p>
+                    </span>
+                    <br>
+                    <br>
+                    <i class="fa-solid fa-phone" style="color:#eaecf0;"></i>
+                    <span>
+                    <h5>+91 9042248462</h5>
+                    <p>Monday to sunday and 10:00 to 7:30</p>
+                    </span>
+                    <br>
+                    <br>
+                    <i class="fa-solid fa-envelope"style="color: #eaecf0;"></i>
+                    <span>
+                    <h5>academybrainedge@gmail.com</h5>
+                    </span>
+                </div>
+             </div> 
+        </div>
+    </section>
+    <script>
+         let menuList = document.getElementById("menuList")
+         menuList.style.maxHeight = "0px";
+    
+         function toggleMenu(){
+            if(menuList.style.maxHeight == "0px")
+            {
+                 menuList.style.maxHeight = "300px";
+            }
+            else{
+                menuList.style.maxHeight = "0px";
+             }
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous">
+    </script>        
+</div>
+</div>
+</body>
+</html>
