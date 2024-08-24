@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:url(../office/image/image\ 5.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    backdrop-filter:invert(70%);
+}
+
+nav{
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #044272;
+    position: relative;
+    height: 70px;
+}
+.BrainedgeAcademy{
+    color: #fff;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.menu-icon i{
+    color: #fff;
+    font-size: 30px;
+}
+@media (max-width:600px) {
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background: #044274;
+        gap: 0px;
+        overflow: hidden;
+        
+    }
+    nav ul li{
+        padding: 20px;
+    }
+    .menu-icon{
+        display: block;
+    }
+}
+#menulist{
+    transition: all 0.5s;
+}
+@media (max-width:600px) {
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background: #044274;
+        gap: 0px;
+        overflow: hidden;
+    }
+}
+@media(max-width:700px){
+    .course{
+        flex-direction: column;
+    }
+}
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+.location iframe{
+    width: 100%;
+}
+.contact-us{
+    width: 80%;
+    margin: auto;
+}
+.contact-col{
+    flex-basis: 48%;
+}
+.contact-col div{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+.contact-col div.fa{
+    font-size: 28px;
+    color: #fff;
+}
+.contact-col div.fa fa-home{
+    color: #fff;
+    font-size: 30px;
+
+}
+.contact-col div p{
+    padding: 0;
+    color: #fff;
+}
+.contact-col div h5{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400%;
+}
+.contact-col details{
+    flex-direction: row;
+    align-items: end;
+}
+
+
+
+
